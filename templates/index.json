@@ -56,7 +56,8 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "legging",
+            "collection": "",
+            "image": "shopify://shop_images/Collection_1_Recoil.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -70,15 +71,16 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "short",
+            "collection": "lj",
+            "image": "shopify://shop_images/Collection_2_LJ.webp",
             "subheading": "",
-            "title": "",
+            "title": "Collection LJ",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection-3": {
@@ -118,33 +120,31 @@
         "heading_gradient": ""
       }
     },
-    "multiple_images_with_text_NyUGc6": {
-      "type": "multiple-images-with-text",
-      "name": "Multiple images with text",
+    "custom_liquid_W4KApq": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section class=\"customer-reviews-section\">\n  <div class=\"page-width\">\n    <h2 class=\"section-heading\"> Ce que disent nos clients :</h2>\n\n    <div class=\"reviews-container\">\n\n      <div class=\"testimonial-item\">\n        <div class=\"rating-stars\">★★★★★</div>\n        <p class=\"review-text\">Absolument loveeee KTP c'est la seule marque que j'achète désormais ! La qualité est la meilleure, la couleur ne s'estompe pas et c'est la tenue de sport la plus confortable  !</p>\n        <p class=\"customer-name\">Kyara H.</p>\n      </div>\n\n      <div class=\"testimonial-item\">\n        <div class=\"rating-stars\">★★★★★</div>\n        <p class=\"review-text\">KTP continue de proposer des vêtements de sport d'une telle qualité, s'améliorant à chaque fois et je suis sincèrement reconnaissant pour cela... on ne voit pas souvent ça de la part d'une marque.</p>\n        <p class=\"customer-name\">Clara C.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n  .customer-reviews-section {\n    padding: 60px 0;\n    text-align: center;\n    background-color: white;\n  }\n\n  .section-heading {\n    text-align: center;\n    margin-bottom: 40px;\n    font-size: 1.25rem;\n    font-weight: 500;\n    letter-spacing: 2px;\n  }\n\n  .reviews-container {\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    flex-wrap: wrap;\n  }\n  \n  @media (min-width: 768px) {\n    .reviews-container {\n        gap: 80px;\n    }\n  }\n\n  .testimonial-item {\n    flex-basis: 45%;\n    max-width: 450px;\n    padding: 20px;\n    text-align: center;\n  }\n\n  .rating-stars {\n    font-size: 1.5rem;\n    color: black;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 1rem;\n    line-height: 1.6;\n    margin-bottom: 15px;\n    color: #333;\n    /* font-style: italic; */ /* Vous pouvez décommenter si vous voulez de l'italique */\n  }\n\n  .customer-name {\n    font-size: 0.9rem;\n    font-weight: bold;\n    color: black;\n  }\n</style>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     },
-    "featured-collection": {
+    "featured_collection_9GkxfB": {
       "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [
-          "core-scrunch-shorts-ice-blue"
-        ],
+        "products": [],
         "full_width": true,
-        "stack_products": false,
+        "stack_products": true,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "subheading": "",
         "title": "Featured collection",
         "content": "",
@@ -197,87 +197,6 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "1664424486a2b084ab-0": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "1664424486a2b084ab-1": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664424486a2b084ab-0",
-        "1664424486a2b084ab-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "featured-product": {
@@ -547,12 +466,10 @@
   "order": [
     "slideshow",
     "collection-list",
-    "multiple_images_with_text_NyUGc6",
-    "featured-collection",
+    "custom_liquid_W4KApq",
+    "featured_collection_9GkxfB",
     "impact-text",
     "before-after-image",
-    "press",
-    "multiple-images-with-text",
     "featured-product",
     "feature-chart",
     "faq"
