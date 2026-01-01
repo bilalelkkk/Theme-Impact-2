@@ -53,11 +53,24 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection-1": {
+        "collection_nAJba3": {
+          "type": "collection",
+          "settings": {
+            "collection": "lj",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_zwdjMT": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/Collection_1_Recoil.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -66,21 +79,6 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "lj",
-            "image": "shopify://shop_images/Collection_2_LJ.webp",
-            "subheading": "",
-            "title": "Collection LJ",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
           }
         },
         "collection-3": {
@@ -99,8 +97,8 @@
         }
       },
       "block_order": [
-        "collection-1",
-        "collection-2",
+        "collection_nAJba3",
+        "collection_zwdjMT",
         "collection-3"
       ],
       "settings": {
