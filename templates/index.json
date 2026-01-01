@@ -337,6 +337,13 @@
             "content": "<p>Sélectionne les articles que tu souhaites, choisis ta taille et ta couleur, puis ajoute-les au panier. Il ne te reste plus qu’à valider ta commande en suivant les étapes de paiement sécurisé.</p>"
           }
         },
+        "item_jCULgf": {
+          "type": "item",
+          "settings": {
+            "title": "Comment entretenir mes vêtements de sport ?",
+            "content": "<p>- Lavage à froid (30°C max)<br/>- Ne pas utiliser de sèche-linge<br/>- Ne pas repasser<br/>- Éviter l’assouplissant pour préserver l’élasticité</p>"
+          }
+        },
         "item_jDPeEA": {
           "type": "item",
           "settings": {
@@ -399,17 +406,11 @@
             "title": "Quels moyens de paiement acceptez-vous ?",
             "content": "<p>Nous acceptons les paiements par <strong>carte bancaire, PayPal, Apple Pay / Google Pay.<br/><br/></strong>Toutes les transactions sont protégées par un système de paiement sécurisé et crypté.</p>"
           }
-        },
-        "item_jCULgf": {
-          "type": "item",
-          "settings": {
-            "title": "Comment entretenir mes vêtements de sport ?",
-            "content": "<p>- Lavage à froid (30°C max)<br/>- Ne pas utiliser de sèche-linge<br/>- Ne pas repasser<br/>- Éviter l’assouplissant pour préserver l’élasticité</p>"
-          }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
+        "item_jCULgf",
         "item_jDPeEA",
         "item_nYrHdX",
         "item_3QNiRi",
@@ -418,17 +419,16 @@
         "item_3jtHCR",
         "166442457738b23caf-1",
         "item_FUitwP",
-        "166442457738b23caf-2",
-        "item_jCULgf"
+        "166442457738b23caf-2"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Notre service clientèle est disponible du lundi au dimanche de 8h à 22h00.",
+        "answer_time": "Délai de réponse moyen : 12 h",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
