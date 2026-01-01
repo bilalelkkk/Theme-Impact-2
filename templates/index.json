@@ -53,12 +53,12 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection_nAJba3": {
+        "collection_zwdjMT": {
           "type": "collection",
           "settings": {
-            "collection": "lj",
+            "collection": "legging-fronce-dos-en-v",
             "subheading": "",
-            "title": "",
+            "title": "Legging",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -67,38 +67,38 @@
             "overlay_opacity": 0
           }
         },
-        "collection_zwdjMT": {
+        "collection_H6CmRB": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "short-fronce-dos-en-v",
             "subheading": "",
-            "title": "",
+            "title": "Short",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "top-court",
             "subheading": "",
-            "title": "",
+            "title": "Haut",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "collection_nAJba3",
         "collection_zwdjMT",
+        "collection_H6CmRB",
         "collection-3"
       ],
       "settings": {
