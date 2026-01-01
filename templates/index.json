@@ -107,7 +107,7 @@
         "collections_per_row": 3,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Collections",
+        "title": "Collection LJ",
         "content": "",
         "link_url": "",
         "link_text": "Voir tout",
@@ -125,7 +125,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"customer-reviews-section\">\n  <div class=\"page-width\">\n    <h2 class=\"section-heading\"> Ce que disent nos clients :</h2>\n\n    <div class=\"reviews-container\">\n\n      <div class=\"testimonial-item\">\n        <div class=\"rating-stars\">★★★★★</div>\n        <p class=\"review-text\">Absolument loveeee KTP c'est la seule marque que j'achète désormais ! La qualité est la meilleure, la couleur ne s'estompe pas et c'est la tenue de sport la plus confortable  !</p>\n        <p class=\"customer-name\">Kyara H.</p>\n      </div>\n\n      <div class=\"testimonial-item\">\n        <div class=\"rating-stars\">★★★★★</div>\n        <p class=\"review-text\">KTP continue de proposer des vêtements de sport d'une telle qualité, s'améliorant à chaque fois et je suis sincèrement reconnaissant pour cela... on ne voit pas souvent ça de la part d'une marque.</p>\n        <p class=\"customer-name\">Clara C.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n  .customer-reviews-section {\n    padding: 60px 0;\n    text-align: center;\n    background-color: white;\n  }\n\n  .section-heading {\n    text-align: center;\n    margin-bottom: 40px;\n    font-size: 1.25rem;\n    font-weight: 500;\n    letter-spacing: 2px;\n  }\n\n  .reviews-container {\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    flex-wrap: wrap;\n  }\n  \n  @media (min-width: 768px) {\n    .reviews-container {\n        gap: 80px;\n    }\n  }\n\n  .testimonial-item {\n    flex-basis: 45%;\n    max-width: 450px;\n    padding: 20px;\n    text-align: center;\n  }\n\n  .rating-stars {\n    font-size: 1.5rem;\n    color: black;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 1rem;\n    line-height: 1.6;\n    margin-bottom: 15px;\n    color: #333;\n    /* font-style: italic; */ /* Vous pouvez décommenter si vous voulez de l'italique */\n  }\n\n  .customer-name {\n    font-size: 0.9rem;\n    font-weight: bold;\n    color: black;\n  }\n</style>",
+        "liquid": "<style>\n  .trustpilot-reviews-section {\n    display: flex;\n    justify-content: space-between;\n    padding: 20px;\n    background-color: #fffffff;\n    border-radius: 8px;\n    position: relative;\n  }\n\n  .trustpilot-summary {\n    flex-basis: 20%;\n    text-align: left;\n  }\n\n  .trustpilot-summary h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .trustpilot-stars img {\n    width: 100px;\n    margin-bottom: 10px;\n  }\n\n  .trustpilot-logo {\n    width: 100px;\n    margin-top: 10px;\n  }\n\n  .review-carousel {\n    display: flex;\n    flex-basis: 75%;\n    overflow: hidden;\n    position: relative;\n  }\n\n  .review-card {\n    width: 270px;\n    padding: 15px;\n    margin-right: 15px;\n    background-color: #ffffff;\n    border: 1px solid #eaeaea;\n    border-radius: 8px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    transition: transform 0.3s ease;\n    flex-shrink: 0;\n  }\n\n  .review-card:hover {\n    transform: scale(1.05);\n  }\n\n  .review-card img {\n    width: 70px;\n  }\n\n  .review-card p {\n    margin: 5px 0;\n    font-size: 14px;\n  }\n\n  .review-card strong {\n    font-weight: bold;\n  }\n\n  .nav-arrow {\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    background-color: #fff;\n    border: 2px solid #ddd;\n    border-radius: 50%;\n    width: 40px;\n    height: 40px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    transition: background-color 0.3s ease, box-shadow 0.3s ease;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  }\n\n  .nav-arrow:hover {\n    background-color: #f0f0f0;\n    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);\n  }\n\n  .arrow-left {\n    left: -20px; \n  }\n\n  .arrow-right {\n    right: -20px; \n  }\n\n  .nav-arrow::before {\n    content: '';\n    display: block;\n    border: solid #333;\n    border-width: 0 3px 3px 0;\n    padding: 5px;\n  }\n\n  .arrow-left::before {\n    transform: rotate(135deg);\n  }\n\n  .arrow-right::before {\n    transform: rotate(-45deg);\n  }\n\n  @media (max-width: 768px) {\n    .trustpilot-reviews-section {\n      flex-direction: column;\n      padding: 10px;\n    }\n\n    .trustpilot-summary {\n      flex-basis: 100%;\n      text-align: center; \n      margin-bottom: 20px;\n    }\n\n    .trustpilot-stars img {\n      width: 80px;\n      margin: 0 auto;\n    }\n\n    .trustpilot-logo {\n      width: 80px;\n      margin-top: 5px;\n      margin: 0 auto; \n    }\n\n    .review-carousel {\n      flex-basis: 100%;\n      overflow-x: auto;\n      padding-bottom: 10px;\n    }\n\n    .review-card {\n      min-width: 85%;\n      margin-right: 10px;\n    }\n\n    .nav-arrow {\n      display: none;\n    }\n  }\n</style>\n\n<div class=\"trustpilot-reviews-section\">\n  <div class=\"trustpilot-summary\">\n    <h2>Excellent !</h2>\n    <div class=\"trustpilot-stars\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n    </div>\n    <p>Basé sur plus de 3,450 avis</p>\n    <!-- Modifier Lien Image ici pour logo -->\n    <img src=\"https://companieslogo.com/img/orig/TRST.L_BIG.D-f939d4a8.png?t=1720244494\" alt=\"Trustpilot logo\" class=\"trustpilot-logo\">\n\n  </div>\n\n  <div class=\"review-carousel\" id=\"review-carousel\">\n     <!-- Modifier Avis ICI -->\n    <div class=\"review-card\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>C’est l’innovation pour enfants qu'on attendait</p>\n      <p>\"Le système respirant est bluffant. On voit une légère ondulation qui imite la respiration, et ça calme vraiment l’enfant en l’imitant inconsciemment.\"</p>\n      <p><strong>Antone B. – Nantes, Loire-Atlantique</strong> - 23/01/2025</p>\n    </div>\n     <!-- Modifier Avis ICI -->\n    <div class=\"review-card\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>Livraison rapide, excellente qualité</p>\n      <p>La commande a été livrée très rapidement et la qualité de la peluche milo stitch est vraiment top. \nUne mention spéciale pour le packaging super bien fait.</p>\n      <p><strong>Leila B. – Cergy, Val D'Oise</strong> - 23/08/2024</p>\n    </div>\n    <!-- Modifier Avis ICI -->\n    <div class=\"review-card\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>Leur produit est une vraie plus-value</p>\n      <p>La peluche diffuse une ambiance très douce et apaisante pour le corps combinée à une lumière tamisée. Ça crée un environnement parfait pour favoriser l’endormissement.</p>\n      <p><strong>Laeticia S. – Brunoy, Essonne</strong> - 13/02/2025</p>\n    </div>\n     <!-- Si vous voulez rajouter des Avis c'est ICI -->\n  </div>\n\n  <!-- Flèches de navigation -->\n  <button class=\"nav-arrow arrow-left\" onclick=\"scrollReviews(-1)\"></button>\n  <button class=\"nav-arrow arrow-right\" onclick=\"scrollReviews(1)\"></button>\n</div>\n\n<script>\n  const reviewCarousel = document.getElementById('review-carousel');\n\n  function scrollReviews(direction) {\n    const scrollAmount = 320; \n    reviewCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });\n  }\n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -137,12 +137,11 @@
       "settings": {
         "collection": "",
         "products": [
-          "core-scrunch-shorts-ice-blue",
-          "core-scrunch-shorts-berry",
-          "core-scrunch-leggings-cranberry",
-          "cee-jumpsuit-beige",
-          "lj-v-back-scrunch-legging-cloud-grey",
-          "lj-v-back-scrunch-legging-off-white"
+          "lj-v-back-scrunch-shorts-tahiti-orange",
+          "lj-v-back-scrunch-legging-espresso",
+          "lj-crop-black",
+          "lj-v-back-scrunch-shorts-off-white",
+          "lj-v-back-scrunch-legging-black"
         ],
         "full_width": true,
         "stack_products": false,
@@ -180,123 +179,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "separator",
-        "description",
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "feature-chart": {
@@ -474,8 +356,6 @@
     "custom_liquid_W4KApq",
     "featured_collection_9GkxfB",
     "impact-text",
-    "before-after-image",
-    "featured-product",
     "feature-chart",
     "faq"
   ]
