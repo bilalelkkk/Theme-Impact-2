@@ -22,7 +22,7 @@
         "full_width": true,
         "subheading": "Contactez-nous",
         "title": "Avez-vous des questions ?",
-        "content": "",
+        "content": "<p>Délai de réponse moyen : 12 h</p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",
