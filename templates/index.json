@@ -181,6 +181,36 @@
         "button_text_color": ""
       }
     },
+    "press_XRbdRH": {
+      "type": "press",
+      "blocks": {
+        "quote_E8NRdY": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Chaque pièce est pensée pour mettre en valeur le corps et l’attitude. Nos clientes le disent : une fois essayée, impossible de s’en passer.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_E8NRdY"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "feature-chart": {
       "type": "feature-chart",
       "blocks": {
@@ -356,6 +386,7 @@
     "custom_liquid_W4KApq",
     "featured_collection_9GkxfB",
     "impact-text",
+    "press_XRbdRH",
     "feature-chart",
     "faq"
   ]
