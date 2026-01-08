@@ -74,26 +74,17 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
+        "text_RCKbt4": {
+          "type": "text",
           "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Inscription VIP",
-            "content": ""
-          }
-        },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true
+            "title": "Nous contacter",
+            "content": "<p>Service client : contact@maneaa.fr<br/>Horaires : Du Lundi au Samedi de 8h à 20h30</p>",
+            "enable_follow_on_shop": true
           }
         }
       },
       "block_order": [
-        "newsletter",
-        "links"
+        "text_RCKbt4"
       ],
       "settings": {
         "show_social_media": true,
