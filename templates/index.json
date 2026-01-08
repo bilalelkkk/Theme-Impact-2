@@ -50,6 +50,95 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "logo_list_qcFHYj": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_HnNtwz": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo_1.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_TmUBdj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_xkVtBM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/8K.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_BY86rj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo-seo_1.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_HnNtwz",
+        "logo_TmUBdj",
+        "logo_xkVtBM",
+        "logo_BY86rj"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur :",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "press_XRbdRH": {
+      "type": "press",
+      "blocks": {
+        "quote_E8NRdY": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Chaque pièce est pensée pour mettre en valeur le corps et l’attitude. Nos clientes le disent : une fois essayée, impossible de s’en passer.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_E8NRdY"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -181,36 +270,6 @@
         "button_text_color": ""
       }
     },
-    "press_XRbdRH": {
-      "type": "press",
-      "blocks": {
-        "quote_E8NRdY": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Chaque pièce est pensée pour mettre en valeur le corps et l’attitude. Nos clientes le disent : une fois essayée, impossible de s’en passer.",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "quote_E8NRdY"
-      ],
-      "name": "Press",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -330,11 +389,12 @@
   },
   "order": [
     "slideshow",
+    "logo_list_qcFHYj",
+    "press_XRbdRH",
     "collection-list",
     "custom_liquid_W4KApq",
     "featured_collection_9GkxfB",
     "impact-text",
-    "press_XRbdRH",
     "faq"
   ]
 }
