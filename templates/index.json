@@ -139,6 +139,47 @@
         "logo_item_border": ""
       }
     },
+    "image_with_text_overlay_Tcrmaq": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_RzU8Tc": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_z88TqC": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NmzWXf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RzU8Tc",
+        "heading_z88TqC",
+        "richtext_NmzWXf"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "featured_product_zg4wd3": {
       "type": "featured-product",
       "blocks": {
@@ -371,6 +412,7 @@
   "order": [
     "slideshow",
     "logo_list_qcFHYj",
+    "image_with_text_overlay_Tcrmaq",
     "press_XRbdRH",
     "featured_product_zg4wd3",
     "custom_liquid_W4KApq",
