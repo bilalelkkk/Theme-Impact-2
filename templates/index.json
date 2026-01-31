@@ -142,6 +142,12 @@
     "featured_product_zg4wd3": {
       "type": "featured-product",
       "blocks": {
+        "liquid_YBqVGc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"sf-rating-block\">\n  <div class=\"sf-stars\">\n    {% for i in (1..5) %}\n      <svg viewBox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    {% endfor %}\n  </div>\n  <span class=\"sf-rating-text\">Excellent ! Basé sur plus de <span class=\"sf-count\">1 122 avis</span></span>\n</div>\n\n<style>\n.sf-rating-block {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  font-family: inherit;\n}\n.sf-stars {\n  display: flex;\n  gap: 2px;\n}\n.sf-stars svg {\n  width: 20px;\n  height: 20px;\n  fill: #00b67a; /* Vert Trustpilot */\n}\n.sf-rating-text {\n  font-size: 15px;\n  font-weight: 500;\n  color: #000000;\n  line-height: 1.2;\n}\n.sf-count {\n  font-weight: 700;\n  text-decoration: underline; /* Style typique des liens d'avis */\n}\n@media (max-width: 749px) {\n  .sf-rating-text { font-size: 13px; }\n  .sf-stars svg { width: 16px; height: 16px; }\n}\n</style>"
+          }
+        },
         "title_F9Mfeh": {
           "type": "title",
           "settings": {
@@ -189,7 +195,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#f0c417",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -207,6 +213,7 @@
         }
       },
       "block_order": [
+        "liquid_YBqVGc",
         "title_F9Mfeh",
         "badges_3CjdrU",
         "liquid_QNiMek",
