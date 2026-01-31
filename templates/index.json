@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DESKTOP_WEB_BANNER_1429_x_796_px_2.webp",
-            "mobile_image": "shopify://shop_images/WEBSITE_HERO_mobile_banner_21.webp",
+            "image": "shopify://shop_images/hf_20260131_113000_ee431e0f-03ea-403e-b881-3a74c62b376a.jpg",
+            "mobile_image": "shopify://shop_images/hf_20260131_113508_8ac70d10-ba46-4ede-b056-4c233b88bf67.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -56,7 +56,7 @@
         "logo_HnNtwz": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo_1.png",
+            "logo": "shopify://shop_images/1.png",
             "logo_width": 300,
             "link": ""
           }
@@ -64,7 +64,7 @@
         "logo_TmUBdj": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
+            "logo": "shopify://shop_images/Le_monde_logo.svg",
             "logo_width": 300,
             "link": ""
           }
@@ -72,15 +72,15 @@
         "logo_xkVtBM": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/8K.svg",
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Bilal.svg",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_BY86rj": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/logo-seo_1.png",
+            "logo": "shopify://shop_images/2.png",
             "logo_width": 300,
             "link": ""
           }
