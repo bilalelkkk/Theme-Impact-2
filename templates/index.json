@@ -164,12 +164,6 @@
             "show_empty": false
           }
         },
-        "description_iqdQG3": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "variant_picker_MmijEh": {
           "type": "variant_picker",
           "settings": {
@@ -205,7 +199,6 @@
         "badges_3CjdrU",
         "price_DPi7jC",
         "rating_WzKNpU",
-        "description_iqdQG3",
         "variant_picker_MmijEh",
         "quantity_selector_eXgcpc",
         "buy_buttons_p9bxjQ",
