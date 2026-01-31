@@ -267,78 +267,57 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Comment passer une commande ?",
-            "content": "<p>Sélectionne les articles que tu souhaites, choisis ta taille et ta couleur, puis ajoute-les au panier. Il ne te reste plus qu’à valider ta commande en suivant les étapes de paiement sécurisé.</p>"
+            "title": "Comment fonctionne la simulation d'aube ?",
+            "content": "<p>La lumière s'allume progressivement 10 à 60 minutes avant l'heure de votre alarme, passant d'un rouge doux à un jaune éclatant pour imiter un lever de soleil naturel.</p>"
           }
         },
         "item_jCULgf": {
           "type": "item",
           "settings": {
-            "title": "Comment entretenir mes vêtements de sport ?",
-            "content": "<p>- Lavage à froid (30°C max)<br/>- Ne pas utiliser de sèche-linge<br/>- Ne pas repasser<br/>- Éviter l’assouplissant pour préserver l’élasticité</p>"
+            "title": "Est-ce que je peux régler l'intensité de la lumière ?",
+            "content": "<p>Oui, le réveil propose 17 variations de couleurs et plusieurs niveaux d'intensité pour s'adapter à votre sensibilité.</p>"
           }
         },
         "item_jDPeEA": {
           "type": "item",
           "settings": {
-            "title": "Puis-je modifier ou annuler ma commande après validation ?",
-            "content": "<p>Une fois la commande confirmée, elle est traitée rapidement. Si tu souhaites la modifier ou l’annuler, contacte-nous au plus vite via le service client. Nous ferons notre possible selon l’état de préparation.</p>"
+            "title": "Quels sont les sons disponibles pour le réveil ?",
+            "content": "<p>Vous pouvez choisir parmi des sons naturels apaisants, la radio FM, ou votre propre musique via la connexion Bluetooth.</p>"
           }
         },
         "item_nYrHdX": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les délais de livraison ?",
-            "content": "<p>Les délais de livraison sont généralement de <strong>4 à 5 jours ouvrés</strong>. Un email de confirmation avec numéro de suivi te sera envoyé dès l’expédition.</p>"
+            "title": "Comment connecter mon téléphone en Bluetooth ?",
+            "content": "<p>Activez le Bluetooth sur votre appareil et sélectionnez le nom du réveil dans la liste pour diffuser vos playlists ou vos sons de relaxation.</p>"
           }
         },
         "item_3QNiRi": {
           "type": "item",
           "settings": {
-            "title": "Livrez-vous à l’international ?",
-            "content": "<p>Oui. Les frais et délais peuvent varier selon le pays de destination.</p>"
+            "title": "Le réveil fonctionne-t-il sur secteur ou batterie ?",
+            "content": "<p>Pour garantir une puissance lumineuse optimale, le réveil fonctionne sur secteur. Une pile de secours permet de sauvegarder l'heure en cas de coupure de courant.</p>"
           }
         },
         "item_yzdmhP": {
           "type": "item",
           "settings": {
-            "title": "Comment choisir la bonne taille ?",
-            "content": "<p>Un guide des tailles est disponible sur chaque fiche produit. Si tu hésites entre deux tailles, nous conseillons généralement de prendre la plus grande pour plus de confort.</p>"
+            "title": "Quels sont les délais de livraison ?",
+            "content": "<p>Les commandes sont traitées sous 24/48h et livrées généralement sous 5 à 9 jours ouvrés.</p>"
           }
         },
         "item_VmgA4P": {
           "type": "item",
           "settings": {
-            "title": "Les leggings sont-ils transparents ?",
-            "content": "<p>Non. Nos leggings sont conçus avec des tissus <strong>opaques, épais et testés au squat</strong>, pour t’offrir un maximum de confiance pendant l’entraînement.</p>"
-          }
-        },
-        "item_3jtHCR": {
-          "type": "item",
-          "settings": {
-            "title": "Les vêtements conviennent-ils à tous les types de sport ?",
-            "content": "<p>Oui ! Nos pièces sont adaptées au fitness, musculation, yoga, pilates, running et au quotidien (lifestyle).</p>"
+            "title": "Puis-je modifier ou annuler ma commande ?",
+            "content": "<p>Vous disposez de 24 heures après la validation pour nous contacter afin de modifier ou annuler votre commande.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Puis-je retourner un article ?",
-            "content": "<p>Oui, tu disposes de <strong>7 jours</strong> après réception pour effectuer un retour, à condition que l’article soit <strong>non porté, non lavé et avec ses étiquettes</strong>.</p>"
-          }
-        },
-        "item_FUitwP": {
-          "type": "item",
-          "settings": {
-            "title": "Comment effectuer un retour ?",
-            "content": "<p>Contacte notre service client pour recevoir la procédure de retour. Une fois l’article reçu et vérifié, le remboursement ou l’échange sera effectué.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Quels moyens de paiement acceptez-vous ?",
-            "content": "<p>Nous acceptons les paiements par <strong>carte bancaire, PayPal, Apple Pay / Google Pay.<br/><br/></strong>Toutes les transactions sont protégées par un système de paiement sécurisé et crypté.</p>"
+            "title": "Puis-je retourner l'article s'il ne me convient pas ?",
+            "content": "<p>Absolument. Vous bénéficiez d'une garantie \"Satisfait ou Remboursé\" de 14 jours après réception de votre colis.</p>"
           }
         }
       },
@@ -350,10 +329,7 @@
         "item_3QNiRi",
         "item_yzdmhP",
         "item_VmgA4P",
-        "item_3jtHCR",
-        "166442457738b23caf-1",
-        "item_FUitwP",
-        "166442457738b23caf-2"
+        "166442457738b23caf-1"
       ],
       "settings": {
         "full_width": false,
