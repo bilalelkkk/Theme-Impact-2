@@ -14,6 +14,19 @@
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Paiement Sécurisé",
+            "content": ""
+          }
+        },
         "free-shipping": {
           "type": "item",
           "settings": {
@@ -36,28 +49,15 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Service Client 7J/7",
-            "content": ""
-          }
-        },
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Paiement Sécurisé",
+            "title": "Service Client",
             "content": ""
           }
         }
       },
       "block_order": [
+        "payment",
         "free-shipping",
-        "customer-support",
-        "payment"
+        "customer-support"
       ],
       "settings": {
         "full_width": true,
