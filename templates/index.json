@@ -213,36 +213,6 @@
         "text_color": ""
       }
     },
-    "press_XRbdRH": {
-      "type": "press",
-      "blocks": {
-        "quote_E8NRdY": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "L'outil ultime pour optimiser ses matinées. En simulant le lever du soleil, ce réveil intelligent élimine le stress matinal et booste la productivité quotidienne.",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "quote_E8NRdY"
-      ],
-      "name": "Press",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "featured_product_zg4wd3": {
       "type": "featured-product",
       "blocks": {
@@ -472,7 +442,6 @@
     "rich_text_9Mcprm",
     "image_with_text_overlay_Tcrmaq",
     "multi_column_NtEAzj",
-    "press_XRbdRH",
     "featured_product_zg4wd3",
     "impact-text",
     "faq"
