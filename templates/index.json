@@ -125,6 +125,68 @@
         "overlay_opacity": 0
       }
     },
+    "multi_column_NtEAzj": {
+      "type": "multi-column",
+      "blocks": {
+        "item_WcMEhf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1.avif",
+            "column_size": "3",
+            "title": "Une vraie révolution pour le réveil !",
+            "heading_tag": "h4",
+            "content": "<p>Je ne pensais pas qu’un réveil simulateur d’aube pouvait autant changer mes matins. La lumière est progressive, douce et très naturelle, ce qui permet de se réveiller sans stress. Les sons sont relaxants et le Bluetooth est un vrai plus pour écouter sa musique. Design moderne et très qualitatif. Je recommande sans hésiter !</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_QzxNej": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2.avif",
+            "column_size": "3",
+            "title": "Idéal pour les dormeurs profonds",
+            "heading_tag": "h4",
+            "content": "<p>Je suis très difficile à réveiller et ce produit fait clairement la différence. La combinaison lumière + son fonctionne à merveille. En plus, le volume est largement suffisant et la radio capte très bien. Très bon achat, je regrette de ne pas l’avoir pris plus tôt 😅</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pf3C8U": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3.avif",
+            "column_size": "3",
+            "title": "Parfait pour un réveil en douceur",
+            "heading_tag": "h4",
+            "content": "<p>Le simulateur d’aube est hyper réaliste, on a vraiment l’impression d’un lever de soleil. Le matin est beaucoup moins brutal et je me sens moins fatigué. Le Bluetooth fonctionne très bien, le son est clair. Produit conforme à la description, livraison rapide.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_WcMEhf",
+        "item_QzxNej",
+        "item_pf3C8U"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "press_XRbdRH": {
       "type": "press",
       "blocks": {
@@ -388,6 +450,7 @@
     "slideshow",
     "logo_list_qcFHYj",
     "image_with_text_overlay_Tcrmaq",
+    "multi_column_NtEAzj",
     "press_XRbdRH",
     "featured_product_zg4wd3",
     "custom_liquid_W4KApq",
