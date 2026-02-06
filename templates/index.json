@@ -109,6 +109,32 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_9Mcprm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RM4CHx": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Maneaaa ?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RM4CHx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_Tcrmaq": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -117,7 +143,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/hf_20260131_213236_6cb946f8-ee9a-4c80-9389-1f1bcac3caaa.jpg",
+        "image": "shopify://shop_images/1_b782e46d-f990-40bb-adc7-c850caa47579.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -449,6 +475,7 @@
   "order": [
     "slideshow",
     "logo_list_qcFHYj",
+    "rich_text_9Mcprm",
     "image_with_text_overlay_Tcrmaq",
     "multi_column_NtEAzj",
     "press_XRbdRH",
