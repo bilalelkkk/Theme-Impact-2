@@ -290,15 +290,22 @@
         "collapsible_text_6BiCdW": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>"
+            "title": "CARACTÉRISTIQUES",
+            "content": "<ul><li> Simulation progressive de lever et coucher de soleil</li><li> 16 couleurs d'ambiance LED personnalisables</li><li> Radio FM intégrée avec fonction réveil</li><li> Connectivité Bluetooth pour musique</li><li> Écran LCD avec affichage de l'heure</li><li> Alarme avec fonction snooze</li><li> Alimentation : Câble USB-C inclus</li><li> Dimensions : 18 x 18 x 12 cm</li></ul>"
+          }
+        },
+        "collapsible_text_3Ni4wq": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "UTILISATION & ENTRETIEN",
+            "content": "<ul><li>Nettoyez simplement avec un chiffon doux et sec</li><li>Programmez votre réveil facilement via les boutons tactiles</li><li>Ajustez l'intensité lumineuse selon vos préférences</li><li>Personnalisez les 16 couleurs d'ambiance à votre goût</li><li>Connectez votre téléphone en Bluetooth pour votre musique préférée</li><li>Réglez la durée de simulation de lever de soleil (10 à 60 minutes)</li><li>Utilisez la fonction snooze pour quelques minutes supplémentaires</li></ul>"
           }
         },
         "collapsible_text_tk4gz3": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>"
+            "title": "LIVRAISON & RETOURS",
+            "content": "<p><strong>Livraison gratuite</strong> sur toutes les commandes</p><ul><li>Expédition sous 24-48h ouvrées</li><li>Suivi de colis fourni par email</li><li>Livraison en 3-7 jours ouvrés</li></ul><p><strong>Retours faciles :</strong></p><ul><li>30 jours pour changer d'avis</li><li>Retour gratuit en France métropolitaine</li><li>Remboursement intégral sous 7 jours</li></ul>"
           }
         },
         "pickup_availability_Uje4gm": {
@@ -319,6 +326,7 @@
         "buy_buttons_p9bxjQ",
         "liquid_gfJrBJ",
         "collapsible_text_6BiCdW",
+        "collapsible_text_3Ni4wq",
         "collapsible_text_tk4gz3",
         "pickup_availability_Uje4gm"
       ],
