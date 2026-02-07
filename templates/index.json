@@ -16,12 +16,12 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/hf_20260131_113000_ee431e0f-03ea-403e-b881-3a74c62b376a.jpg",
-            "mobile_image": "shopify://shop_images/hf_20260131_113508_8ac70d10-ba46-4ede-b056-4c233b88bf67.png",
+            "mobile_image": "shopify://shop_images/hf_20260207_091533_81bb2a75-aa8e-4543-8d6c-41f9878c1c83.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Stop aux réveils brutaux qui gâchent votre journée.",
+            "title": "",
             "heading_tag": "h3",
             "button_text": "",
             "button_link": "",
@@ -40,7 +40,7 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
