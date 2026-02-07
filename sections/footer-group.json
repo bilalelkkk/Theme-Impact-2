@@ -74,14 +74,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_RCKbt4": {
-          "type": "text",
-          "settings": {
-            "title": "Nous contacter",
-            "content": "<p>Service client : contact@maneaa.fr<br/>Horaires : Du Lundi au Samedi de 8h à 20h00</p>",
-            "enable_follow_on_shop": true
-          }
-        },
         "newsletter_EnEmUy": {
           "type": "newsletter",
           "settings": {
@@ -90,11 +82,19 @@
             "title": "Inscrivez-vous à notre newsletter",
             "content": ""
           }
+        },
+        "text_RCKbt4": {
+          "type": "text",
+          "settings": {
+            "title": "Nous contacter",
+            "content": "<p>Service client : contact@maneaa.fr<br/>Horaires : Du Lundi au Samedi de 8h à 20h00</p>",
+            "enable_follow_on_shop": true
+          }
         }
       },
       "block_order": [
-        "text_RCKbt4",
-        "newsletter_EnEmUy"
+        "newsletter_EnEmUy",
+        "text_RCKbt4"
       ],
       "settings": {
         "show_social_media": true,
