@@ -330,13 +330,6 @@
             "content": "<p>Huile de Bronzage Accélérateur : Huile minérale blanche, huile d'amande douce, huile de pépins de raisin, huile d'olive, huile de graine de coton, huile de tournesol, huile de jojoba, huile de mangue, beurre de noix de coco, tyrosine, huile d'églantier, huile de Tamanu, huile de germe de blé, huile de pépins de courge, huile d'avocat, huile de carotte, huile de Buriti, huile de sésame.</p><p>Crème Hydratante Maximum : Eau, jus de feuille d'aloe vera, huile d'amande douce, triglycéride caprylique/caprique, alcool cétéarylique, stéarate de glycéryle, carbonate de dicaprylyle, beurre de cupuaçu, glycérine, huile de sésame, huile de Tamanu, beurre de mangue, tyrosine, huile de pépins de courge, huile d'avocat, huile de jojoba, huile d'églantier, huile de germe de blé, extrait de mûre, tocophérol, hyaluronate de sodium, benzoate de sodium, sorbate de potassium.</p>"
           }
         },
-        "collapsible_text_6BiCdW": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Pourquoi bronze-t-on plus vite avec Brunaé Body ?",
-            "content": "<p>Tout repose sur la mélanine, le pigment naturel de votre peau responsable du bronzage. Plus votre peau en produit, plus votre bronzage est profond et rapide.</p><p>Notre formule concentre des huiles naturelles reconnues pour activer la mélanogenèse, le mécanisme biologique qui déclenche cette production. Résultat : votre peau bronze plus vite, plus intensément et de façon plus uniforme, avec une exposition au soleil réduite.</p><p>Ici, pas de coloration artificielle en surface. Brunaé Body travaille avec votre peau, pas contre elle.</p>"
-          }
-        },
         "collapsible_text_3Ni4wq": {
           "type": "collapsible_text",
           "settings": {
@@ -348,7 +341,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Livraison & retours",
-            "content": "<p><strong>Livraison gratuite</strong> sur toutes les commandes</p><ul><li>Expédition sous 24-48h ouvrées</li><li>Suivi de colis fourni par email</li><li>Livraison en 3-7 jours ouvrés</li></ul><p><strong>Retours faciles :</strong></p><ul><li>30 jours pour changer d'avis</li><li>Retour gratuit en France métropolitaine</li><li>Remboursement intégral sous 7 jours</li></ul>"
+            "content": "<p><strong>Livraison gratuite</strong> sur toutes les commandes</p><ul><li>Expédition sous 24-48h ouvrées</li><li>Suivi de colis fourni par email</li><li>Livraison en 5-9 jours ouvrés</li></ul><p><strong>Retours faciles :</strong></p><ul><li>30 jours pour changer d'avis</li><li>Retour gratuit en France métropolitaine</li><li>Remboursement intégral sous 7 jours</li></ul>"
           }
         },
         "pickup_availability_Uje4gm": {
@@ -368,7 +361,6 @@
         "liquid_gfJrBJ",
         "collapsible_text_gQ9Qp3",
         "collapsible_text_dD34tY",
-        "collapsible_text_6BiCdW",
         "collapsible_text_3Ni4wq",
         "collapsible_text_tk4gz3",
         "pickup_availability_Uje4gm"
@@ -429,36 +421,29 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Comment fonctionne la simulation d'aube ?",
-            "content": "<p>La lumière s'allume progressivement 10 à 60 minutes avant l'heure de votre alarme, passant d'un rouge doux à un jaune éclatant pour imiter un lever de soleil naturel.</p>"
+            "title": "Pourquoi bronze-t-on plus vite avec Brunaé Body ?",
+            "content": "<p>Tout repose sur la mélanine, le pigment naturel de votre peau responsable du bronzage. Plus votre peau en produit, plus votre bronzage est profond et rapide.</p><p>Notre formule concentre des huiles naturelles reconnues pour activer la mélanogenèse, le mécanisme biologique qui déclenche cette production. Résultat : votre peau bronze plus vite, plus intensément et de façon plus uniforme, avec une exposition au soleil réduite.</p><p>Ici, pas de coloration artificielle en surface. Brunaé Body travaille avec votre peau, pas contre elle.</p>"
+          }
+        },
+        "item_NQYLjT": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps avant de voir des résultats ?",
+            "content": "<p>Les premiers résultats sont visibles dès les 2 à 3 premières utilisations. <br/><br/>Pour un bronzage optimal, nous recommandons de commencer la crème hydratante maximum 5 jours avant votre exposition et d'utiliser l'huile à chaque séance.</p>"
           }
         },
         "item_jCULgf": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que je peux régler l'intensité de la lumière ?",
-            "content": "<p>Oui, le réveil propose 17 variations de couleurs et plusieurs niveaux d'intensité pour s'adapter à votre sensibilité.</p>"
+            "title": "Ce produit contient-il un écran solaire ?",
+            "content": "<p>Non. Brunaé Body est un accélérateur de bronzage et ne contient aucune protection solaire. <br/><br/>Nous vous recommandons d'appliquer de la crème solaire avant l'huile et de pratiquer une exposition solaire modérée et progressive.</p>"
           }
         },
         "item_jDPeEA": {
           "type": "item",
           "settings": {
-            "title": "Quels sont les sons disponibles pour le réveil ?",
-            "content": "<p>Vous pouvez choisir parmi des sons naturels apaisants, la radio FM, ou votre propre musique via la connexion Bluetooth.</p>"
-          }
-        },
-        "item_nYrHdX": {
-          "type": "item",
-          "settings": {
-            "title": "Comment connecter mon téléphone en Bluetooth ?",
-            "content": "<p>Activez le Bluetooth sur votre appareil et sélectionnez le nom du réveil dans la liste pour diffuser vos playlists ou vos sons de relaxation.</p>"
-          }
-        },
-        "item_3QNiRi": {
-          "type": "item",
-          "settings": {
-            "title": "Le réveil fonctionne-t-il sur secteur ou batterie ?",
-            "content": "<p>Pour garantir une puissance lumineuse optimale, le réveil fonctionne sur secteur. Une pile de secours permet de sauvegarder l'heure en cas de coupure de courant.</p>"
+            "title": "J'ai du mal à bronzer, est-ce que ça fonctionnera ?",
+            "content": "<p>Chaque peau est unique et les résultats varient selon votre type de peau et votre capacité naturelle à bronzer. <br/><br/>Nos formules ont été développées pendant plusieurs années pour répondre aux besoins de toutes les peaux, même les plus récalcitrantes. <br/><br/>Notre procédé en 2 étapes maximise vos chances d'obtenir un bronzage profond, uniforme et durable dès cet été.</p>"
           }
         },
         "item_yzdmhP": {
@@ -485,10 +470,9 @@
       },
       "block_order": [
         "166442457738b23caf-0",
+        "item_NQYLjT",
         "item_jCULgf",
         "item_jDPeEA",
-        "item_nYrHdX",
-        "item_3QNiRi",
         "item_yzdmhP",
         "item_VmgA4P",
         "166442457738b23caf-1"
