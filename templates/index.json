@@ -21,7 +21,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "",
+            "title": "Marre de bronzer pour rien ? Passe au niveau au-dessus.",
             "heading_tag": "h3",
             "button_text": "",
             "button_link": "",
@@ -337,6 +337,13 @@
             "content": "<p><strong>Livraison gratuite</strong> sur toutes les commandes</p><ul><li>Expédition sous 24-48h ouvrées</li><li>Suivi de colis fourni par email</li><li>Livraison en 3-7 jours ouvrés</li></ul><p><strong>Retours faciles :</strong></p><ul><li>30 jours pour changer d'avis</li><li>Retour gratuit en France métropolitaine</li><li>Remboursement intégral sous 7 jours</li></ul>"
           }
         },
+        "collapsible_text_gQ9Qp3": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "DESCRIPTION",
+            "content": "<p>Brunaé Body est votre solution naturelle pour un bronzage profond, uniforme et éclatant. <br/><br/>Notre coffret bronzage accéléré combine la crème hydratante maximum pour préparer votre peau, et l'huile de bronzage accélérateur pour intensifier votre bronzage pendant l'exposition. <br/><br/>Fabriqués en France avec des ingrédients soigneusement sélectionnés, nos produits affichent une texture légère qui pénètre instantanément pour une peau douce, nourrie et lumineuse.</p>"
+          }
+        },
         "pickup_availability_Uje4gm": {
           "type": "pickup_availability",
           "settings": {}
@@ -355,6 +362,7 @@
         "collapsible_text_6BiCdW",
         "collapsible_text_3Ni4wq",
         "collapsible_text_tk4gz3",
+        "collapsible_text_gQ9Qp3",
         "pickup_availability_Uje4gm"
       ],
       "name": "Featured product",
