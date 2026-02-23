@@ -319,8 +319,8 @@
         "collapsible_text_6BiCdW": {
           "type": "collapsible_text",
           "settings": {
-            "title": "CARACTÉRISTIQUES",
-            "content": "<ul><li> Simulation progressive de lever et coucher de soleil</li><li> 16 couleurs d'ambiance LED personnalisables</li><li> Radio FM intégrée avec fonction réveil</li><li> Connectivité Bluetooth pour musique</li><li> Écran LCD avec affichage de l'heure</li><li> Alarme avec fonction snooze</li><li> Alimentation : Câble USB-C inclus</li><li> Dimensions : 18 x 18 x 12 cm</li></ul>"
+            "title": "Pourquoi bronze-t-on plus vite avec Brunaé Body ?",
+            "content": "<p>Tout repose sur la mélanine — le pigment naturel de votre peau responsable du bronzage. Plus votre peau en produit, plus votre bronzage est profond et rapide.</p><p>Notre formule concentre des huiles naturelles reconnues pour activer la mélanogenèse, le mécanisme biologique qui déclenche cette production. Résultat : votre peau bronze plus vite, plus intensément et de façon plus uniforme, avec une exposition au soleil réduite.</p><p>Ici, pas de coloration artificielle en surface. Brunaé Body travaille avec votre peau, pas contre elle.</p>"
           }
         },
         "collapsible_text_3Ni4wq": {
@@ -344,6 +344,13 @@
             "content": "<p>Brunaé Body est votre solution naturelle pour un bronzage profond, uniforme et éclatant. <br/><br/>Notre coffret bronzage accéléré combine la crème hydratante maximum pour préparer votre peau, et l'huile de bronzage accélérateur pour intensifier votre bronzage pendant l'exposition. <br/><br/>Fabriqués en France avec des ingrédients soigneusement sélectionnés, nos produits affichent une texture légère qui pénètre instantanément pour une peau douce, nourrie et lumineuse.</p>"
           }
         },
+        "collapsible_text_dD34tY": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "INGRÉDIENTS",
+            "content": "<p>Huile de Bronzage Accélérateur : Huile minérale blanche, huile d'amande douce, huile de pépins de raisin, huile d'olive, huile de graine de coton, huile de tournesol, huile de jojoba, huile de mangue, beurre de noix de coco, tyrosine, huile d'églantier, huile de Tamanu, huile de germe de blé, huile de pépins de courge, huile d'avocat, huile de carotte, huile de Buriti, huile de sésame.</p><p>Crème Hydratante Maximum : Eau, jus de feuille d'aloe vera, huile d'amande douce, triglycéride caprylique/caprique, alcool cétéarylique, stéarate de glycéryle, carbonate de dicaprylyle, beurre de cupuaçu, glycérine, huile de sésame, huile de Tamanu, beurre de mangue, tyrosine, huile de pépins de courge, huile d'avocat, huile de jojoba, huile d'églantier, huile de germe de blé, extrait de mûre, tocophérol, hyaluronate de sodium, benzoate de sodium, sorbate de potassium.</p>"
+          }
+        },
         "pickup_availability_Uje4gm": {
           "type": "pickup_availability",
           "settings": {}
@@ -363,6 +370,7 @@
         "collapsible_text_3Ni4wq",
         "collapsible_text_tk4gz3",
         "collapsible_text_gQ9Qp3",
+        "collapsible_text_dD34tY",
         "pickup_availability_Uje4gm"
       ],
       "name": "Featured product",
