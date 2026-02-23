@@ -140,7 +140,7 @@
         "heading_RM4CHx": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir Maneaa ?",
+            "text": "Pourquoi choisir Brunaé Body ?",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -168,7 +168,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Pkk.jpg",
+        "image": "shopify://shop_images/Pk.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
