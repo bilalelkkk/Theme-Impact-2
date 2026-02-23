@@ -14,19 +14,6 @@
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Paiement Sécurisé",
-            "content": ""
-          }
-        },
         "free-shipping": {
           "type": "item",
           "settings": {
@@ -37,6 +24,19 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Livraison Offerte",
+            "content": ""
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Paiement Sécurisé",
             "content": ""
           }
         },
@@ -55,8 +55,8 @@
         }
       },
       "block_order": [
-        "payment",
         "free-shipping",
+        "payment",
         "customer-support"
       ],
       "settings": {
@@ -87,8 +87,8 @@
           "type": "text",
           "settings": {
             "title": "Nous contacter",
-            "content": "<p>Service client : contact@maneaa.fr<br/>Horaires : Du Lundi au Samedi de 8h à 20h00</p>",
-            "enable_follow_on_shop": true
+            "content": "<p>Service client : contact@brunea-body.com<br/>Horaires : Du Lundi au Samedi de 8h à 20h00</p>",
+            "enable_follow_on_shop": false
           }
         }
       },
