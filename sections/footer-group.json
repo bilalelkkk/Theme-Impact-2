@@ -87,7 +87,7 @@
           "type": "text",
           "settings": {
             "title": "Nous contacter",
-            "content": "<p>Service client : contact@brunea-body.com<br/>Horaires : Du Lundi au Samedi de 8h à 20h00</p>",
+            "content": "<p><strong>Notre équipe est à votre disposition pour toute question :</strong></p><p>Du lundi au vendredi : de 10h00 à 20h00. Samedi et dimanche : de 12h00 à 17h00.</p><p>📧 Adresse e-mail : contact@brunae-body.com</p><p>Nous nous efforçons de répondre dans les 12 heures.</p>",
             "enable_follow_on_shop": false
           }
         }
